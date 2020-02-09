@@ -1,0 +1,37 @@
+*{margin: 0; padding: 0}
+body{
+	background: url('img/1.jpg') no-repeat;
+	background-size: cover;
+	font-family: arial;
+	color: #FFFFFF;
+	margin: 20px auto;
+	margin-left: 20px;
+}
+#menu ul{
+list-style: none;
+}
+#menu ul li{
+	float: left;
+	width: 200px;
+	height: 40;
+	background-color: #282923;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	margin-right: 2px;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+}
+#menu ul li a:hover{
+	background-color: #009F30;
+}
+#menu ul li ul li{
+	display: none; 
+}
+#menu ul li:hover ul li{
+	display: block; 
+}
